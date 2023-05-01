@@ -1,6 +1,6 @@
 :root {
     --primary: #ccdad1;
-    --secondary: #9caea9;
+    --secondary: #505f5b;
     --tertiary: #788585;
     --light-dark: #6f6866;
     --dark: #38302e;
@@ -106,43 +106,10 @@
     font-size: 3rem;
     background-color: var(--primary);
     color: var(--dark);
-    padding: 0 10px;
+    padding: 0 20px;
     display: inline-block;
     border-radius: var(--border-radius);
     box-shadow: 6px 5px var(--light-dark);
-  }
-  
-  .list-group {
-    padding: 0;
-    list-style: none;
-  }
-  
-  .list-item {
-    margin-bottom: 10px;
-    padding: 1.5%;
-    border-radius: var(--border-radius);
-    background-color: var(--light-dark);
-    color: var(--primary);
-    text-decoration: none;
-  }
-  
-  .list-item:hover {
-    background-color: var(--dark);
-  }
-  
-  .status-icon {
-    padding: 2px 5px;
-    margin: 0 5px;
-    background-color: rgba(255,255,255, 1);
-    border-radius: var(--border-radius);
-  }
-  
-  .icon-danger {
-    color: rgb(255, 70, 70);
-  }
-  
-  .icon-success {
-    color: rgb(29, 153, 255);
   }
   
   /* CARDS */

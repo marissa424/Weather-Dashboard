@@ -1,4 +1,3 @@
-
 window.addEventListener("load", () => {
   // Clear cities array and local storage
   cities = [];

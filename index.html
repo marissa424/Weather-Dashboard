@@ -57,8 +57,10 @@
         </div>
       </div>
   
-      <div>
-        <h2 class="subtitle"> 5 DAY WEATHER FORCECAST <span id="city-search-term"></span></h2>
+
+      <div class="col-12 col-md-8">
+        <h2 class="subtitle">5 DAY WEATHER FORCECAST<span id="city-search-term"></span></h2>
+        <!-- There needs to be an empty HTML element for us to write repository data to. -->
         <div id="city-container" class="list-group"></div>
       </div>
     </main>
@@ -76,4 +78,33 @@
     <script src="./assets/js/script.js"></script>
 </body>
 
-</html>
+<!-- 
+    <div class="container row">
+        <div class="city-search col">
+            <form class="col justify-content-start" id="city-search">
+                <div class="row">
+                    <input type="text" readonly class="form-control-plaintext" id="search-header"
+                        value="Search for a city">
+                </div>
+
+                <div class="col-auto searchDiv">
+                    <input type="Saltlake" class="form-control" placeholder="Saltlake" id="search-input">
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="col">
+                <div class="savedCities">
+                </div>
+            </div>
+        </div>
+
+        <div class="results col-8">
+            <div class="city-weather row">
+            </div>
+
+            <div class="5dayForecast row d-flex justify-content-evenly"></div>
+        </div>
+    </div> 

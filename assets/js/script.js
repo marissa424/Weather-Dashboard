@@ -1,3 +1,4 @@
+
 window.addEventListener("load", () => {
   // Clear cities array and local storage
   cities = [];
@@ -6,8 +7,6 @@ window.addEventListener("load", () => {
 
 const apiKey = "dc0a8043429219e780441e7cc386652e";
 const baseUrl = "https://api.openweathermap.org/data/2.5/forecast";
-
-
 
 // Define DOM elements
 var form = document.querySelector("#user-form");
